@@ -50,7 +50,7 @@ async function starts() {
 	client.logger.level = 'warn'
 	console.log(banner.string)
 	client.on('qr', () => {
-		console.log(color('[','white'), color('!','red'), color(']','white'), color(' Subrek YT Ramlan Channel'))
+		console.log(color('[','white'), color('!','red'), color(']','white'), color(' Subrek YT FDL BOT Whatsapp'))
 	})
 
 	fs.existsSync('./Ramlan.json') && client.loadAuthInfo('./Ramlan.json')
