@@ -75,7 +75,7 @@ const help = (prefix) => {
 ┃➢ ${prefix}clearall
 ┃➢ ${prefix}clone
 ┣━━━━━━━━━━━━━━━━━━━━┛
-┃⟪ 𝙁𝘿𝙇-𝙓𝙥𝙡𝙤𝙞𝙩 ⟫
+┃⟪ 𝙁𝘿𝙇 *GANZ* ⟫
 ┕━━━━━━━━━━━━━━━━━━━━┚
 `
 }
