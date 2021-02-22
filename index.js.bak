@@ -25,7 +25,7 @@ const welkom = JSON.parse(fs.readFileSync('./src/welkom.json'))
 const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // OM JANGAN DI UBAH OM
-            + 'VERSION:3.0\n' // INI WEEM RAMLAN GANS
+            + 'VERSION:3.0\n' // INI SC SI RAMLAM
             + 'FN:RamlanGans\n' // UBAH INI
             + 'ORG:Owner BOT;\n' // UBAH INI
             + 'TEL;type=CELL;type=VOICE;waid=447451209039:+44 7451 209039\n' // UBAH INI
@@ -50,7 +50,7 @@ async function starts() {
 	client.logger.level = 'warn'
 	console.log(banner.string)
 	client.on('qr', () => {
-		console.log(color('[','white'), color('!','red'), color(']','white'), color(' Subrek YT Ramlan Channel'))
+		console.log(color('[','white'), color('!','red'), color(']','white'), color(' Subrek YT FDL BOT Whatsapp'))
 	})
 
 	fs.existsSync('./Ramlan.json') && client.loadAuthInfo('./Ramlan.json')
@@ -371,7 +371,7 @@ async function starts() {
 					reply(anu.quotes)
 					break
 				case 'ytmp3':
-					if (args.length < 1) return reply('Urlnya mana ngentot?')
+					if (args.length < 1) return reply('Urlnya mana bang?')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
 					anu = await fetchJson(`https://mhankbarbar.tech/api/yta?url=${args[0]}&apiKey=${BarBar}`, {method: 'get'})
 					if (anu.error) return reply(anu.error)
@@ -415,7 +415,7 @@ async function starts() {
 					break
 				case 'nulis':
 				case 'tulis':
-					if (args.length < 1) return reply('Yang mau di tulis apaan? titit kah?')
+					if (args.length < 1) return reply('Yang mau di tulis apaan? Aku kah?')
 					teks = body.slice(7)
 					reply(mess.wait)
 					anu = await fetchJson(`https://mhankbarbar.tech/nulis?text=${teks}&apiKey=${BarBar}`, {method: 'get'})
@@ -437,7 +437,7 @@ async function starts() {
 					break
 				case 'ttp':
 				case 'tsticker':
-					if (args.length < 1) return reply('Textnya mana ngentot?')
+					if (args.length < 1) return reply('Textnya mana om?')
 					ranp = getRandom('.png')
 					rano = getRandom('.webp')
 					teks = body.slice(4).trim()
