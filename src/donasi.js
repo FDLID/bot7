@@ -12,7 +12,7 @@ const donasi = (prefix) => {
 ║  ▌│█║▌║▌║║▌║▌║█│▌
 ║         FADHIL
 ╠════════════════════
-║ _*POWERED BY FDL-Xploit*_
+║ _*POWERED BY FDL GANZ*_
 ╚════════════════════
 `
 }
