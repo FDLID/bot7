@@ -26,7 +26,7 @@ const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // OM JANGAN DI UBAH OM
             + 'VERSION:3.0\n' // INI SC SI RAMLAM
-            + 'FN:RamlanGans\n' // UBAH INI
+            + 'FN:FDL GANZ\n' // UBAH INI
             + 'ORG:Owner BOT;\n' // UBAH INI
             + 'TEL;type=CELL;type=VOICE;waid=447451209039:+44 7451 209039\n' // UBAH INI
             + 'END:VCARD' // WEEM DIHAPUS GUE BERHENTI UPDATE SCRIPT
