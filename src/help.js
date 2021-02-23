@@ -1,11 +1,11 @@
 const help = (prefix) => {
-	return `┌──「 *FDL BOT WA* 」
+	return `┌──「 *RNDY BOT* 」
 │
 ├「 OWNER STATUS 」
 │
-├◪ *NAME: FDL*
-├◪ *WA: 628990542731*
-├◪ *YT: FDL GANZ*
+├◪ *NAME: RENDY*
+├◪ *WA: 081262309422*
+├◪ *YT: Rendy irawan*
 │
 ├──「 *TENTANG BOT* 」
 │
@@ -71,7 +71,7 @@ const help = (prefix) => {
 ├◪ ${prefix}clearall
 ├◪ ${prefix}clone
 │
-└──「 *FDL BOT* 」
+└──「 *RNDY BOT* 」
 `
 }
 
