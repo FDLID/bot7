@@ -3,16 +3,16 @@ const donasi = (prefix) => {
 ║ *DONASI UNTUK BOT*
 ╠════════════════════
 ║╭──❉ *DONASI BOS* ❉─────
-║│➸ *PULSA*: _08990542731_
-║│➸ *LINK AJA*: _08990542731_
+║│➸ *PULSA*: _081262309422_
+║│➸ *LINK AJA*: _Sementara gadak_
 ║╰──────────────────
 ╠════════════════════
 ║         06-11-2002
 ║  ▌│█║▌║▌║║▌║▌║█│▌
 ║  ▌│█║▌║▌║║▌║▌║█│▌
-║         FADHIL
+║         RENDY
 ╠════════════════════
-║ _*POWERED BY FDL GANZ*_
+║ _*POWERED BY RNDY IRAWAN*_
 ╚════════════════════
 `
 }
